@@ -1,0 +1,22 @@
+li{
+    list-style-type: none;
+    margin: 10px;
+    border: 2px solid green;
+    width: 200px;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.menu{
+    border: 5px solid darkred;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.page{
+    border: 5px solid black;
+    height: 300px;
+    width: 1000px;
+    margin: 10px;
+}

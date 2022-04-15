@@ -1,0 +1,16 @@
+
+<h3>Root Component</h3>
+
+<h4 [style.color]="'red'" (click)="allowSpecial()">{{content}}</h4>
+<h4 [style.color]="'red'" (click)="allowChild()">{{content2}}</h4>
+<div class="menu">
+<ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/special">Special</a></li>
+    <li><a routerLink="/ordinary">Ordinary</a></li>
+    <li><a routerLink="/moderate">Moderate</a></li>
+</ul>
+</div>
+<div class="page">
+<router-outlet></router-outlet>
+</div>
